@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppsMoviles_Practica1_2</string>
+    <string name="string_titulo">Convertidor de monedas</string>
+    <string name="string_moneyFrom" />
+    <string name="string_moneyTo" />
+    <string name="string_empty" />
+    <string name="string_convertButton"><![CDATA[->]]></string>
 </resources>
