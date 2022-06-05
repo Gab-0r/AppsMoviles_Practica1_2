@@ -57,6 +57,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="@string/string_moneyFrom"
+                            android:inputType="number"
                             tools:ignore="SpeakableTextPresentCheck" />
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,6 +65,7 @@
                         android:id="@+id/sp_currencyFrom"
                         android:layout_width="356dp"
                         android:layout_height="51dp"
+                        android:layout_gravity="fill_vertical"
                         android:layout_weight="1"
                         android:dropDownWidth="wrap_content"
                         android:entries="@array/currencys" />
@@ -86,20 +88,15 @@
                     android:layout_marginTop="16dp"
                     android:orientation="horizontal">
 
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/TextInputLayout_currencyTo"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:id="@+id/textView_currencyTo"
+                        android:layout_width="522dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.5">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/TextInputEditText_currencyTo"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:hint="@string/string_moneyTo"
-                            tools:ignore="SpeakableTextPresentCheck" />
-
-                    </com.google.android.material.textfield.TextInputLayout>
+                        android:layout_gravity="fill_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/string_empty"
+                        android:textSize="20sp" />
 
                     <Spinner
                         android:id="@+id/sp_currencyTo"
