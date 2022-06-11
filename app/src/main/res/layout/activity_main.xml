@@ -78,8 +78,8 @@
                     android:layout_height="63dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="16dp"
-                    android:text="@string/string_convertButton"
-                    android:textSize="34sp" />
+                    android:text="@string/string_convertir"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:id="@+id/LinearLayout_currencyTo"

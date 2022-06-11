@@ -5,4 +5,5 @@
     <string name="string_moneyTo" />
     <string name="string_empty" />
     <string name="string_convertButton"><![CDATA[->]]></string>
+    <string name="string_convertir">Convertir</string>
 </resources>
