@@ -1,7 +1,6 @@
-package com.example.appsmoviles_practica1_2
+package com.example.appsmoviles_practica1_2.ui.main
 
 import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.appsmoviles_practica1_2.databinding.ActivityMainBinding
 
