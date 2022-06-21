@@ -24,6 +24,4 @@ class MainViewModel : ViewModel() {
         }
         convert_result.value = amount * factConv.get(currencyto)
     }
-
-
 }
